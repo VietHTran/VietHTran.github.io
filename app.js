@@ -101,15 +101,17 @@ var ownerInfo = function (argv) {
     }
     if (argv.indexOf("--edu")>-1) {
         isPrinted=true;
-        println("Education: Penn State University    2016-2021    Computer Science    3.69/4.00");
+        println("Education: Penn State University    2016-2021    Computer Science    3.71/4.00");
     }
     if (argv.indexOf("--work")>-1) {
         isPrinted=true;
         println("Work Experience:");
-        println("Part-time Cloud Engineer (January 2021 - Present)");
+        println("SDE I (August 2021 - Present)");
+        println("Amazon");
+        println("");
+        println("Cloud Engineer Co-op (June 2020 - August 2021)");
         println("Oracle");
-        println("Cloud Engineer Co-op (June 2020 - January 2021)");
-        println("Oracle");
+        println("");
         println("Software Engineer Co-op (June 2019 - December 2019)");
         println("VIAVI Solutions");
         println("");
